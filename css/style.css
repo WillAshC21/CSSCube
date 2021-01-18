@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+.cube {
+  transform-style: preserve-3d;
+  perspective: 100px;
+}
+
+#face-front {
+      background-color: blue;
+      width: 300px;
+      height: 300px;
+      margin-left: 60px;
+
+}
+#face-left {
+      background-color: yellow;
+      width: 300px;
+      height: 300px;
+      transform: rotateY(170deg);
+
+}
+#face-right {
+      background-color: red;
+      width: 300px;
+      height: 300px;
+      transform: rotateY(190deg);
+
+}
